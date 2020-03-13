@@ -1,3 +1,21 @@
+/*
+Trent Bultsma
+3/12/2020
+CS 145
+Anagrams
+
+This class is created by being fed a Set of Strings that contain
+lots of words from the dictionary. This dictionary is used to find
+words that are contined within an inputted phrase and then subsequently
+find combinations of them that combine to create a perfect anagram with
+no letters left over. Every time a phrase is inputted, it is stored and
+it's anagrams are calculated. When another phrase is inputted, it checks
+if it's the same. If it is, no extra calculations are done to stop redundant
+calculations and the previous values kept and used. This allows the user
+to input a word and check anagrams of differing max lengths without being
+penalized with extra calculations.
+ */
+
 import java.util.HashSet;
 import java.util.Set;
 
